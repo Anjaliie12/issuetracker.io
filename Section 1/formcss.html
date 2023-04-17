@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie ticket booking</title>
+    <link rel="stylesheet" href="style.css">
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: scans-serif;
+    }
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .container{
+        max-width: 650px;
+        padding:28px;
+        margin: 0 28px;
+        box-shadow: 0 15px 20px;
+    }
+</head>
+<body>
+    <div class="container"></div>
+    <form action=""method="post">
+        <h2>Registration</h2>
+        <div class="content">
+            <div class="input-box">
+                <label for="name">full name</label>
+                <input type="text">placeholder="Enter full name" name="name" required>
+            </div>
+            <div class="input-box">
+                <label for="name">email address</label>
+             <input type="email">placeholder="Enter your valid email address" name="email address" required>
+            </div>
+            <div class="input-box">
+                <label for="phonenumber">phonenumber</label>
+                <input type="phonenumber">placeholder="Enter phonenumber" name="phonenumber" required>
+            </div>
+            <div class="input-box">
+                <label for="password">password</label>
+                <input type="password">placeholder="enter new password" name="password" required>
+            </div>
+            <span class="gender-title">Gender</span>
+            <div class="gender category">
+                <input type="radio" name="gender" id="male">
+                <label for="gender">male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="gender">female</label>
+                <input type="radio" name="gender" id="other">
+                <label for="gender">other</label>
+            </div>
+
+        </div>
+        <div class="button-container">
+        <button type="submit">Rregister</button>
+    </div>
+    ></form>
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mycard{
+            border:2px solid blueviolet;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        .mycontainer{
+            display: grid;
+           /* grid-template-columns: 300px 200px 500px;*/
+           /* grid-template-columns: repeat(5,1fr);*/
+           grid-template-columns: 2fr 1fr 1fr;
+           grid-template-rows: 2fr 1fr 1fr;
+           /* column-gap: 20px;
+            row-gap: 40px;*/
+            gap: 30px;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="mycontainer">
+        <div class="mycard">
+            <h3>Card title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            
+        </div>
+        <div class="mycard">
+            <h3>Card title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            
+        </div>
+        <div class="mycard">
+            <h3>Card title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            
+        </div>
+        <div class="mycard">
+            <h3>Card title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            
+        </div>
+        <div class="mycard">
+            <h3>Card title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            
+        </div>
+    </div>
+    
+</body>
+</html>

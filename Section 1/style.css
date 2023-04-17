@@ -1,0 +1,28 @@
+h1{
+    color: rgb(255, 0, 8);
+    font-size: 90;
+}
+h3{
+    color: rgb(13, 4, 20);
+    text-transform: capitalize;
+    transition: .8;
+    font-size: 40;
+    
+}
+p{
+    color: crimson;
+    transition: .8;
+    font-family: cursive;
+
+}
+.button{
+    color: aqua;
+    font-size: 40;
+}
+button:hover{
+    transition: .20;
+
+}
+*{
+    background-color: rgb(25, 130, 125);
+}

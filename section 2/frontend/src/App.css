@@ -1,0 +1,4 @@
+.nav-item .active{
+  border-buttom: 2px solid blue;
+  font-weight: bold;
+}

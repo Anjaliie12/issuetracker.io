@@ -1,0 +1,33 @@
+.newsletter{
+    padding: 80px;
+    background-color: blueviolet;
+
+}
+.newsletter  .content{
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.newsletter  .content h2{
+    margin-bottom: 40px;
+    color: crimson;
+}
+ .newsletter  .content .form-control{
+    height: 50px;
+    border-color: #fff;
+    border-radius: 0;
+
+ }
+.newsletter .content .form-control:focus{
+    box-shadow: none;
+    border: 2px solid #243c4f;
+
+}
+.newsletter .content .btn{
+    min-height: 50px;
+    border-radius: 0px;
+    background-color: #243c4f;
+    color: #fff;
+    font-weight: 600;
+}
